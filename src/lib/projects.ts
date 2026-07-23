@@ -1,11 +1,18 @@
-import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p4 from "@/assets/project-4.jpg";
-import p5 from "@/assets/project-5.jpg";
-import p6 from "@/assets/project-6.jpg";
-import hero from "@/assets/hero-architecture.jpg";
+import p1 from "@/assets/projects/proj-1.jpg.asset.json";
+import p2 from "@/assets/projects/proj-2.jpg.asset.json";
+import p3 from "@/assets/projects/proj-3.jpg.asset.json";
+import p4 from "@/assets/projects/proj-4.jpg.asset.json";
+import p5 from "@/assets/projects/proj-5.jpg.asset.json";
+import p6 from "@/assets/projects/proj-6.jpg.asset.json";
+import p7 from "@/assets/projects/proj-7.jpg.asset.json";
+import p8 from "@/assets/projects/proj-8.jpg.asset.json";
+import p9 from "@/assets/projects/proj-9.jpg.asset.json";
+import p10 from "@/assets/projects/proj-10.jpg.asset.json";
+import p11 from "@/assets/projects/proj-11.jpg.asset.json";
+import p12 from "@/assets/projects/proj-12.jpg.asset.json";
+import p13 from "@/assets/projects/proj-13.jpg.asset.json";
 
-const imgs = [p1, p2, hero, p4, p5, p6];
+const imgs = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p1];
 
 export type Project = {
   location: string;
@@ -32,4 +39,4 @@ const raw: Omit<Project, "image">[] = [
   { location: "Oral Estate, Ikota Lekki, Lagos", task: "Design & Build", stage: "Built", year: "2012" },
 ];
 
-export const projects: Project[] = raw.map((p, i) => ({ ...p, image: imgs[i % imgs.length] }));
+export const projects: Project[] = raw.map((p, i) => ({ ...p, image: imgs[i].url }));
