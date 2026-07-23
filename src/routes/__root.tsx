@@ -88,8 +88,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "D'Ghate Design Studio Ltd is a Lagos-based architecture, engineering and build practice creating functional, inspiring, eco-conscious spaces across Nigeria since 2006." },
       { property: "og:description", content: "D'Ghate Design Studio Ltd is a Lagos-based architecture, engineering and build practice creating functional, inspiring, eco-conscious spaces across Nigeria since 2006." },
       { name: "twitter:description", content: "D'Ghate Design Studio Ltd is a Lagos-based architecture, engineering and build practice creating functional, inspiring, eco-conscious spaces across Nigeria since 2006." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/c865970a-3b55-4765-8195-3854e185f57d" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/c865970a-3b55-4765-8195-3854e185f57d" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/b28aeea1-df1f-4744-a4df-034bc215c7bd" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/b28aeea1-df1f-4744-a4df-034bc215c7bd" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
