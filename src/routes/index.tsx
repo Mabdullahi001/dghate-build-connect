@@ -13,11 +13,11 @@ export const Route = createFileRoute("/")({
         content:
           "D'Ghate Design Studio Ltd is a Lagos-based architecture, engineering and build practice creating functional, inspiring, eco-conscious spaces across Nigeria since 2006.",
       },
-      { property: "og:title", content: "D'Ghate Design Studio — Architecture & Build, Lagos" },
+      { property: "og:title", content: "D'Ghate Design Studio — Architecture, Engineering & Build in Lagos" },
       {
         property: "og:description",
         content:
-          "Architecture, consultation, engineering, procurement and project management. A design and build studio based in Lagos, Nigeria.",
+          "D'Ghate Design Studio Ltd is a Lagos-based architecture, engineering and build practice creating functional, inspiring, eco-conscious spaces across Nigeria since 2006.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
