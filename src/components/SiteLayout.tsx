@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
+import logoAsset from "@/assets/dghate-logo.jpg.asset.json";
 
 const nav = [
   { to: "/", label: "Index" },
@@ -16,9 +17,16 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-border bg-background/85 backdrop-blur">
       <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-5 md:px-10">
         <Link to="/" className="group flex items-center gap-3">
-          <span className="font-display text-2xl leading-none">D'Ghate</span>
-          <span className="hidden text-[10px] uppercase tracking-[0.22em] text-muted-foreground md:inline">
-            Design Studio
+          <img
+            src={logoAsset.url}
+            alt="D'Ghate Design Studio logo"
+            className="h-10 w-auto"
+          />
+          <span className="flex flex-col leading-tight">
+            <span className="font-display text-2xl leading-none">D'Ghate</span>
+            <span className="hidden text-[10px] uppercase tracking-[0.22em] text-muted-foreground md:inline">
+              Design Studio
+            </span>
           </span>
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
