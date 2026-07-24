@@ -41,19 +41,13 @@ function ContactPage() {
 
       <section className="mx-auto max-w-[1400px] px-6 py-24 md:px-10 md:py-32">
         <div className="grid gap-16 md:grid-cols-12">
-          <div className="md:col-span-4">
+          <div className="md:col-span-6">
             <p className="eyebrow">Studio</p>
             <p className="mt-4 font-display text-2xl leading-tight">
               21 Ogunlana Crescent,<br />Awoyaya, Lekki,<br />Lagos State.
             </p>
           </div>
-          <div className="md:col-span-4">
-            <p className="eyebrow">Office</p>
-            <p className="mt-4 font-display text-2xl leading-tight">
-              6c Alh Sadiku Street,<br />Off Amara Olu Street,<br />Agidingbi, Ikeja,<br />Lagos State.
-            </p>
-          </div>
-          <div className="md:col-span-4">
+          <div className="md:col-span-6">
             <p className="eyebrow">Registered</p>
             <p className="mt-4 font-display text-2xl leading-tight">
               D'Ghate Design Studio Ltd<br />RC: 1447212

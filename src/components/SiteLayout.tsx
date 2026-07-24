@@ -90,10 +90,6 @@ export function SiteFooter() {
             <p className="mt-3 text-sm leading-relaxed">
               21 Ogunlana Crescent, Awoyaya,<br />Lekki, Lagos State
             </p>
-            <p className="mt-6 eyebrow">Office</p>
-            <p className="mt-3 text-sm leading-relaxed">
-              6c Alh Sadiku Street, Off Amara Olu Street,<br />Agidingbi, Ikeja, Lagos State
-            </p>
           </div>
           <div className="md:col-span-2">
             <p className="eyebrow">Contact</p>

@@ -67,12 +67,6 @@ const staff = [
     qual: "B.Sc. Accounting",
     bio: "OND at Kwara State Polytechnic, Ilorin; B.Sc. Accounting at Obafemi Awolowo University, Ile-Ife. Vast knowledge across financial institutions before joining D'Ghate Design Studio as a consultant.",
   },
-  {
-    name: "Mudashiru Ishola L.",
-    role: "Quantity Surveyor (Consultant)",
-    qual: "Quantity Surveying",
-    bio: "Consulting quantity surveyor supporting cost planning, measurement and contract administration across studio projects.",
-  },
 ];
 
 function TeamPage() {
