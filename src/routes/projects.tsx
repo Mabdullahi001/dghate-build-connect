@@ -1,6 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { projects } from "@/lib/projects";
+import p14 from "@/assets/projects/proj-14.jpeg";
+import p15 from "@/assets/projects/proj-15.jpeg";
+import p16 from "@/assets/projects/proj-16.jpeg";
+import p17 from "@/assets/projects/proj-17.jpeg";
+import p18 from "@/assets/projects/proj-18.jpeg";
+import p19 from "@/assets/projects/proj-19.jpeg";
 
 export const Route = createFileRoute("/projects")({
   head: () => ({
@@ -38,6 +44,20 @@ function ProjectsPage() {
             Residential estates, institutional commissions, consultation and remodels across
             Lagos, Ogun, Edo and Kwara States.
           </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-[1400px] px-6 py-16 md:px-10 md:py-20">
+        <p className="eyebrow">Recent</p>
+        <h2 className="mt-4 font-display text-4xl">Recent Projects</h2>
+        <p className="mt-4 max-w-2xl text-muted-foreground">A selection of the most recent work — details to be added.</p>
+
+        <div className="mt-8 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+          {[p14, p15, p16, p17, p18, p19].map((src, i) => (
+            <div key={i} className="overflow-hidden rounded-lg bg-muted">
+              <img src={src} alt={`Recent project ${i + 14}`} className="aspect-[4/3] w-full object-cover" />
+            </div>
+          ))}
         </div>
       </section>
 

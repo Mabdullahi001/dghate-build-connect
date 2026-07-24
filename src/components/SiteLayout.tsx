@@ -27,6 +27,7 @@ export function SiteHeader() {
             <span className="hidden text-[10px] uppercase tracking-[0.22em] text-muted-foreground md:inline">
               Design Studio
             </span>
+            <span className="text-xs text-muted-foreground mt-0.5">RC: 1447214</span>
           </span>
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
@@ -82,7 +83,7 @@ export function SiteFooter() {
               Getting spaces connected. Building for those that own them.
             </h2>
             <p className="mt-6 max-w-md text-sm text-muted-foreground">
-              Architecture · Consultation · Engineering · Procurement · Project & Facility Management. RC: 1447212.
+              Architecture · Consultation · Engineering · Procurement · Project & Facility Management. RC: 1447214.
             </p>
           </div>
           <div className="md:col-span-3">
