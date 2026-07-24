@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
-import logoAsset from "@/assets/dghate-logo.jpg.asset.json";
+import logoAsset from "@/assets/dghate-logo.jpg";
 
 const nav = [
   { to: "/", label: "Index" },
@@ -18,7 +18,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-5 md:px-10">
         <Link to="/" className="group flex items-center gap-3">
           <img
-            src={logoAsset.url}
+            src={logoAsset}
             alt="D'Ghate Design Studio logo"
             className="h-10 w-auto"
           />
